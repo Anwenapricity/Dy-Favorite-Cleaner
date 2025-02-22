@@ -1,0 +1,19 @@
+.quick-unfavorite-btn {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 6px 12px;
+  background-color: #fe2c55;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 100;
+  transition: background-color 0.2s;
+}
+
+.quick-unfavorite-btn:hover {
+  background-color: #d91f43;
+} 
